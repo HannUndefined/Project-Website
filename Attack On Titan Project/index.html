@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attack On Titan</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="shortcut icon" href="image/survey-corps.png" type="image/x-icon">
+    <style>
+
+        
+    </style>
+</head>
+
+<body>
+    <div class="container" id="container">
+
+    <div class="header">
+        <div class="navbar" id="navbar">
+            <div class="header-left"></div>
+            <div class="header-mid">
+                <a href="#main" class="nav-link">Home</a>
+                <a href="#charactersPage" class="nav-link">Characters</a>
+                <a href="#series" class=" nav-link">Series</a>
+            </div>
+            <div class="header-right"></div>
+        </div>
+    </div>
+
+
+
+
+        <section class="main" id="main">
+            <div class="filter"></div>
+        <div class="about">
+            <div class="ep-count">
+                <p>Action</p>
+                <p>Military</p>
+                <p>Survival</p>
+                <p>Suspense</p>
+            </div>
+            <div class="title">
+                ATTACK ON TITAN
+            </div>
+            <div class="synopsis">
+                When man-eating Titans first appeared 100 years ago, humans found safety behind massive walls that
+                stopped the giants in their tracks. But the safety they have had for so long is threatened when a
+                colossal Titan smashes through the barriers, causing a flood of the giants into what had been the
+                humans' safe zone.
+            </div>
+            <div class="score">
+                <div class="star-logo"><i class="fa fa-star"></i></div>
+                <div class="score-label">Score<p class="score-total">9.1 / 10</p>
+                </div>
+            </div>
+            <div class="landing-button">
+                <button class="watch-button"><i class="fa fa-play"></i>Watch Now</button>
+                <button class="add-list-button"><i class="fa fa-plus"></i></i>Add To List</button>
+            </div>
+        </div>
+        
+        <div class="bg-changer-gallery">
+            <button class="bg-gallery" onclick="changeBg('main')">
+                <img src="image/snkwpp.jpg" alt="">
+            </button>
+            <button class="bg-gallery" onclick="changeBg('main2')">
+                <img src="image/snkwpp2.jpg" alt="">
+            </button>
+            <button class="bg-gallery" onclick="changeBg('main3')">
+                <img src="image/snkwpp3.jpg" alt="">
+            </button>
+            <button class="bg-gallery" onclick="changeBg('main4')">
+                <img src="image/snkwpp4.jpg" alt="">
+            </button>
+        </div>
+    </section>
+
+    
+    <section class="characters" id="charactersPage">
+        <h3 class="section-title">CHARACTERS</h3>
+        <div class="characters-content">
+            <div class="characters-selector">
+                <img src="image/gallery/eren/eren-1.jpg" alt="" onclick="changeRender('eren-yeager')">
+                <img src="image/characters/mikasa-button.jpg" alt="" onclick="changeRender('mikasa-ackerman')">
+                <img src="image/gallery/armin/armin-1.jpg" alt="" onclick="changeRender('armin-arlert')">
+                <img src="image/gallery/levi/levi-1.jpg" alt="" onclick="changeRender('levi-ackerman')">
+            </div>
+            <div class="characters-detail">
+                <div class="left"></div>
+                <div class="mid">
+                    <span class="characters-bg-name">
+                        <p class="characters-name" id="characters-name">MIKASA ACKERMAN</p>
+                    </span>
+                    <div class="characters-bg"></div>
+                    <div class="character-render" id="character-render"></div>
+                    <div class="characters-info glass">
+                    <p id="characters-info"></p>
+                </div>
+                <div class="characters-gallery glass" id="characters-gallery"></div>
+            </div>
+            <div class="right"></div>
+        </div>
+    </div>
+    </section>
+
+<section class="series" id="series">
+    <h3 class="section-title">Series</h3>
+    <div class="series-type">
+        <button id="tv-seriesButton" onclick="changeSeries('tv')">TV</button>
+        <button id="movie-seriesButton" onclick="changeSeries('movie')">Movie</button>
+        <!-- <button id="special-seriesButton" onclick="changeSeries('special')">Special</button> -->
+        <button id="ova-seriesButton" onclick="changeSeries('ova')">OVA</button>
+        <button id="order-seriesButton" onclick="changeSeries('order')">Watch Order</button>
+    </div>
+
+    <div class="series-slider glass" id="series-slider">
+    </div>
+</section>
+
+<section class="titan">
+    <h3 class="section-title">Titan</h3>
+    
+
+</section>
+
+</div>
+<script src="script.js"></script>
+</body>
+
+</html>
