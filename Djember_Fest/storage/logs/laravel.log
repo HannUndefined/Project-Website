@@ -1,0 +1,16 @@
+[2024-10-08 02:23:56] local.ERROR: Uncaught Symfony\Component\Finder\Exception\DirectoryNotFoundException: The "D:\Project Website\Djember_Fest\resources\views" directory does not exist. in E:\Djember_Fest\vendor\symfony\finder\Finder.php:646
+Stack trace:
+#0 E:\Djember_Fest\vendor\laravel\framework\src\Illuminate\Filesystem\Filesystem.php(584): Symfony\Component\Finder\Finder->in('D:\\Project Webs...')
+#1 Command line code(1): Illuminate\Filesystem\Filesystem->files('D:\\Project Webs...')
+#2 Command line code(1): getViews('D:\\Project Webs...', Object(Illuminate\Filesystem\Filesystem))
+#3 {main}
+  thrown {"exception":"[object] (Symfony\\Component\\ErrorHandler\\Error\\FatalError(code: 0): Uncaught Symfony\\Component\\Finder\\Exception\\DirectoryNotFoundException: The \"D:\\Project Website\\Djember_Fest\\resources\\views\" directory does not exist. in E:\\Djember_Fest\\vendor\\symfony\\finder\\Finder.php:646
+Stack trace:
+#0 E:\\Djember_Fest\\vendor\\laravel\\framework\\src\\Illuminate\\Filesystem\\Filesystem.php(584): Symfony\\Component\\Finder\\Finder->in('D:\\\\Project Webs...')
+#1 Command line code(1): Illuminate\\Filesystem\\Filesystem->files('D:\\\\Project Webs...')
+#2 Command line code(1): getViews('D:\\\\Project Webs...', Object(Illuminate\\Filesystem\\Filesystem))
+#3 {main}
+  thrown at E:\\Djember_Fest\\vendor\\symfony\\finder\\Finder.php:646)
+[stacktrace]
+#0 {main}
+"} 

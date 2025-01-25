@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.home {
+    background-image: url('views/image/74988-gedung-pemkab-jember.jpg');
+}
